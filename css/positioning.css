@@ -54,7 +54,7 @@ menu {
   gap: 50px;
   margin-left: 345px;
 }
-.logo__first {
+.logo__firm {
   display: flex;
   align-items: center;
   margin-left: 15px;
@@ -85,7 +85,7 @@ main {
   margin-bottom: 94px;
   margin-top: 94px;
 }
-.portfolio-bottom-logo {
+.logo__link--bottom {
   padding-top: 60px;
 }
 address {
@@ -96,7 +96,7 @@ address {
   row-gap: 10px;
   padding: 0;
 }
-.section__text {
+.text section {
   max-width: 1170px;
   margin: 94px 15px 94px 15px;
 }
