@@ -91,16 +91,16 @@ main {
 address {
   gap: 9px;
 }
-.lorem-list {
+.product {
   display: flex;
   row-gap: 10px;
   padding: 0;
 }
-.index-lorem {
+.section__text {
   max-width: 1170px;
   margin: 94px 15px 94px 15px;
 }
-.service {
+.container__button {
   padding: 30px 700px 200px 700px;
 }
 .logo__header /*logo__header.*/ {
@@ -109,22 +109,23 @@ address {
   justify-content: space-between;
   height: 80px;
 }
-.index-what {
+.section__aboutus {
   margin: 94px 15px 94px 15px;
 }
-.index-title-button {
-  max-width: 1600px;
-  background-image: url=("../images/index-header-photo.jpg");
-  background-position: center;
-  background-size: cover;
-}
-.what-foto {
+.offers {
   display: flex;
   justify-content: space-between;
   gap: 30px;
   padding: 0;
 }
-.team {
+.section__index {
+  max-width: 1600px;
+  background-image: url=("../images/index-header-photo.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.container__team {
   background-color: #f5f4fa;
   width: 1600px;
   height: 708px;
@@ -132,19 +133,19 @@ address {
   top: 1449px;
   margin: 0 auto;
 }
-.team-fotos {
+.team {
   display: inline-flex;
   column-gap: 30px;
   margin: 0 auto;
 
   padding: 0px 215px 94px 215px;
 }
-.team-description {
+.team__title {
   padding: 94px 695px 50px 695px;
   white-space: nowrap;
   margin: 0 auto;
 }
-.index-foto-list {
+.team__item {
   background: var(--background-color);
   width: 270px;
   height: 428px;
@@ -153,16 +154,16 @@ address {
   border-radius: 0px 0px 4px 4px;
 }
 
-.johndoe-foto {
+.team__image {
   max-width: 270px;
   max-height: 260px;
 }
-.johndoe-description {
+.team__description {
   background: var(--background-color);
   white-space: nowrap;
   row-gap: 10px;
 }
-.main-index {
+.main__index--margin {
   margin-bottom: 0;
   margin-top: 94px;
   margin-left: 0;
